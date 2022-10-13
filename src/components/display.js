@@ -2,17 +2,15 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 
-export default class Display extends Component {
-
-  render() {
-    return (
+const Display = (props) => {
+  return (
       <p className='result'>
-        <span> {this.props.Result} </span>
-        <span> {this.props.Operate} </span>
-        <span> {this.props.Next} </span>
+        <span> {props.Result} </span>
+        <span> {props.Operate} </span>
+        <span> {props.Next} </span>
       </p> 
     )
-  }
+
 }
 
 
@@ -21,3 +19,5 @@ Display.propTypes = {
   Operate: PropTypes.string,
   Next: PropTypes.string
 }
+
+export default Display
