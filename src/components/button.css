@@ -11,17 +11,19 @@ button {
   transition: border-color 0.25s;
   margin: 5px;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
 .ash {
-    background-color: #d4d4d2;
-    color: #1a1a1a;
+  background-color: #d4d4d2;
+  color: #1a1a1a;
 }
 
 .number-0 {
