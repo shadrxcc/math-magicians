@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 
 const Display = (props) => {
   return (
-      <p className='result'>
+      <div className='result'>
         <span> {props.Result} </span>
         <span> {props.Operate} </span>
         <span> {props.Next} </span>
-      </p> 
+      </div> 
     )
 
 }

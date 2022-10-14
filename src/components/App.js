@@ -19,7 +19,7 @@ const App = () => {
 
     return (
       <>
-      <div className='wrapper'>
+      <div className='wrapper py-5'>
         <Display Result={state.total} Operate={state.operation} Next={state.next} />
         <ButtonPanel clickHandler={handleClick}/>
         </div>

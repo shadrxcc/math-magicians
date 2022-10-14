@@ -13,29 +13,29 @@ const ButtonPanel = (props) => {
                 </div>
 
                 <div>
-                    <Button name="7" className="grey" handleClick={props.clickHandler} />
-                    <Button name="8" className="grey" handleClick={props.clickHandler} />
-                    <Button name="9" className="grey" handleClick={props.clickHandler} />
+                    <Button name="7" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="8" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="9" className="num-pallette" handleClick={props.clickHandler} />
                     <Button name="*" className="orangeBtn" handleClick={props.clickHandler} />
                 </div>
 
                 <div>
-                    <Button name="4" className="grey" handleClick={props.clickHandler} />
-                    <Button name="5" className="grey" handleClick={props.clickHandler} />
-                    <Button name="6" className="grey" handleClick={props.clickHandler} />
+                    <Button name="4" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="5" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="6" className="num-pallette" handleClick={props.clickHandler} />
                     <Button name="-" className="orangeBtn" handleClick={props.clickHandler} />
                 </div>
 
                 <div>
-                    <Button name="1" className="grey" handleClick={props.clickHandler} />
-                    <Button name="2" className="grey" handleClick={props.clickHandler} />
-                    <Button name="3" className="grey" handleClick={props.clickHandler} />
+                    <Button name="1" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="2" className="num-pallette" handleClick={props.clickHandler} />
+                    <Button name="3" className="num-pallette" handleClick={props.clickHandler} />
                     <Button name="+" className="orangeBtn" handleClick={props.clickHandler} />
                 </div>
 
                 <div>
-                    <Button name="0" className="grey" handleClick={props.clickHandler} />
-                    <Button name="." className="grey" handleClick={props.clickHandler} />
+                    <Button name="0" className="num-pallette number-0" handleClick={props.clickHandler} />
+                    <Button name="." className="num-pallette" handleClick={props.clickHandler} />
                     <Button name="=" className="orangeBtn" handleClick={props.clickHandler} />
                 </div>
             </div>
@@ -43,7 +43,7 @@ const ButtonPanel = (props) => {
 }
 
 ButtonPanel.propTypes = {
-    clickHandler: PropTypes.func,
+    clickHandler: PropTypes.func
 };
 
 export default ButtonPanel
