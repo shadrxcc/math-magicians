@@ -4,9 +4,9 @@ import App from "../components/App";
 const Calculator = () => {
     return (
         <>
-        <div className="intro">
+        <div className="intro top">
         <div>
-        <h1 className="lets">Lets do some<br/><span className="orange calc"> calculations</span></h1>
+        <h1 className="lets fadeInLeft">Lets do some<br/><span className="orange calc"> calculations</span></h1>
         </div>
         <div>
         <App />
