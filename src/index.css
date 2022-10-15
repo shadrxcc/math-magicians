@@ -137,6 +137,7 @@ a.BTN {
   font-size: 40px;
   line-height: 1.1em;
   font-weight: 400;
+  margin-bottom: 1.2em;
 }
 
 .calc {
@@ -191,6 +192,7 @@ a.BTN {
   .intro {
     flex-direction: column;
     margin: auto;
+    margin-top: 4.2em;
   }
 
   .card {
