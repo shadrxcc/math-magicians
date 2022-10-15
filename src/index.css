@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -15,12 +15,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #e7e7f3;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #535bf2;
+  color: #ff9500;
 }
 
 .wrapper {
@@ -38,4 +38,183 @@ a:hover {
   overflow-wrap: break-word;
   padding-bottom: 15px;
   padding-right: 10px;
+  inline-size: 273px;
+  line-height: 1em;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 5px 0px;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sublink {
+  padding: 0px 5px 0px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 30px 0px;
+}
+
+.h-intro {
+  text-align: center;
+  line-height: 1em;
+  font-size: 40px;
+}
+
+.orange {
+  color: #ff9500;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 10px 0px;
+  margin: 35px 0px 20px;
+}
+
+.speed {
+  color: #ff9500;
+  font-size: 60px;
+}
+
+.BTN {
+  text-align: center;
+  background: #ff9500;
+  margin: auto;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.BTN:hover {
+  filter: drop-shadow(0 0 0.2em #646cffaa);
+}
+
+
+a.BTN {
+  color: aliceblue;
+}
+
+.btn-cont {
+  display: flex;
+}
+
+.lets {
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 400;
+}
+
+.calc {
+  font-weight: 800;
+}
+
+.text {
+  text-align: center;
+  margin: 0px 250px 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote {
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  border-radius: 15px;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #ff9500 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before {
+  font-family:Arial;
+  content: "\201C";
+  color:#ff9500;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after {
+  content: '';
+}
+
+.otro-blockquote span {
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    margin: auto;
+  }
+
+  .lets {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  .calc {
+  font-size: 1.6em;
+  }
+
+  .text {
+    margin: 0px 40px 0px;
+  }
+
+}
+
+@media (min-width: 767px) {
+  .lets {
+    padding-inline-start: 1em;
+  }
+
+  .calc {
+    font-size: 1.5em;
+  }
 }
