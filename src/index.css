@@ -50,7 +50,6 @@ a:hover {
 }
 
 .logo {
-  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: bold;
   will-change: filter;
@@ -162,7 +161,8 @@ a.BTN {
 }
 
 .otro-blockquote::before {
-  font-family:Arial;
+  font-family:Open Sans;
+  font-style:italic;
   content: "\201C";
   color:#ff9500;
   font-size:4em;

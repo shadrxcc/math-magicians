@@ -18,7 +18,7 @@ const Quote = () => {
         <blockquote className="otro-blockquote fadeInBottom">
           Without mathematics, there’s nothing you can do. Everything around you
           is mathematics. Everything around you is numbers.
-          <span>Shakuntala Devi</span>
+          <span className="author">Shakuntala Devi</span>
         </blockquote>
 
         <blockquote className="otro-blockquote fadeInBottom">
