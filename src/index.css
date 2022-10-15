@@ -103,6 +103,10 @@ a:hover {
   margin: 35px 0px 20px;
 }
 
+.cards {
+  padding-top: 25px;
+}
+
 .speed {
   color: #ff9500;
   font-size: 60px;
@@ -114,6 +118,7 @@ a:hover {
   margin: auto;
   padding: 1em;
   border-radius: 15px;
+  margin-top: 1.8em;
 }
 
 .BTN:hover {
