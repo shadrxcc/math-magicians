@@ -46,7 +46,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5px 5px 0px;
+  padding: 5px 5px 0;
 }
 
 .logo {
@@ -58,21 +58,19 @@ a:hover {
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 .sublink {
-  padding: 0px 5px 0px;
+  padding: 0 5px 0;
 }
 
 .top {
@@ -82,7 +80,7 @@ a:hover {
 .intro {
   display: flex;
   justify-content: space-between;
-  padding: 0px 20px 30px 0px;
+  padding: 0 20px 30px 0;
 }
 
 .h-intro {
@@ -99,8 +97,8 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  padding: 0px 10px 0px;
-  margin: 35px 0px 20px;
+  padding: 0 10px 0;
+  margin: 35px 0 20px;
 }
 
 .cards {
@@ -146,18 +144,18 @@ a.BTN {
 
 .text {
   text-align: center;
-  margin: 0px 144px 0px;
+  margin: 0 144px 0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+
 .otro-blockquote {
   font-size: 1.4em;
   width: 60%;
   margin: 50px auto;
-  font-family: Open Sans;
   font-style: italic;
   border-radius: 15px;
-  color: #555555;
+  color: #555;
   padding: 1.2em 30px 1.2em 75px;
   border-left: 8px solid #ff9500;
   line-height: 1.6;
@@ -166,7 +164,6 @@ a.BTN {
 }
 
 .otro-blockquote::before {
-  font-family: Open Sans;
   font-style: italic;
   content: "\201C";
   color: #ff9500;
@@ -182,7 +179,7 @@ a.BTN {
 
 .otro-blockquote span {
   display: block;
-  color: #333333;
+  color: #333;
   font-style: normal;
   font-weight: bold;
   margin-top: 1em;
@@ -214,7 +211,12 @@ a.BTN {
   }
 
   .text {
-    margin: 0px 40px 0px;
+    margin: 0 40px 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -228,14 +230,14 @@ a.BTN {
   }
 }
 
-.fadeInTop {
-  -webkit-animation: fadeInTop 1.2s both;
-  -moz-animation: fadeInTop 1.2s both;
-  -o-animation: fadeInTop 1.2s both;
-  animation: fadeInTop 1.2s both;
+.fadeintop {
+  -webkit-animation: fadeintop 1.2s both;
+  -moz-animation: fadeintop 1.2s both;
+  -o-animation: fadeintop 1.2s both;
+  animation: fadeintop 1.2s both;
 }
 
-@-webkit-keyframes fadeInTop {
+@-webkit-keyframes fadeintop {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-50px);
@@ -247,7 +249,7 @@ a.BTN {
   }
 }
 
-@-moz-keyframes fadeInTop {
+@-moz-keyframes fadeintop {
   0% {
     opacity: 0;
     -moz-transform: translateY(-50px);
@@ -259,7 +261,7 @@ a.BTN {
   }
 }
 
-@-o-keyframes fadeInTop {
+@-o-keyframes fadeintop {
   0% {
     opacity: 0;
     -o-transform: translateY(-50px);
@@ -271,7 +273,7 @@ a.BTN {
   }
 }
 
-@keyframes fadeInTop {
+@keyframes fadeintop {
   0% {
     opacity: 0;
     transform: translateY(-50px);
@@ -283,14 +285,14 @@ a.BTN {
   }
 }
 
-.fadeInLeft {
-  -webkit-animation: fadeInLeft 1.2s both;
-  -moz-animation: fadeInLeft 1.2s both;
-  -o-animation: fadeInLeft 1.2s both;
-  animation: fadeInLeft 1.2s both;
+.fadeinleft {
+  -webkit-animation: fadeinleft 1.2s both;
+  -moz-animation: fadeinleft 1.2s both;
+  -o-animation: fadeinleft 1.2s both;
+  animation: fadeinleft 1.2s both;
 }
 
-@-webkit-keyframes fadeInLeft {
+@-webkit-keyframes fadeinleft {
   0% {
     opacity: 0;
     -webkit-transform: translateX(-50px);
@@ -302,7 +304,7 @@ a.BTN {
   }
 }
 
-@-moz-keyframes fadeInLeft {
+@-moz-keyframes fadeinleft {
   0% {
     opacity: 0;
     -moz-transform: translateX(-50px);
@@ -314,7 +316,7 @@ a.BTN {
   }
 }
 
-@-o-keyframes fadeInLeft {
+@-o-keyframes fadeinleft {
   0% {
     opacity: 0;
     -o-transform: translateX(-50px);
@@ -326,7 +328,7 @@ a.BTN {
   }
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeinleft {
   0% {
     opacity: 0;
     transform: translateX(-50px);
@@ -338,14 +340,14 @@ a.BTN {
   }
 }
 
-.fadeInRight {
-  -webkit-animation: fadeInRight 1.2s both;
-  -moz-animation: fadeInRight 1.2s both;
-  -o-animation: fadeInRight 1.2s both;
-  animation: fadeInRight 1.2s both;
+.fadeinright {
+  -webkit-animation: fadeinright 1.2s both;
+  -moz-animation: fadeinright 1.2s both;
+  -o-animation: fadeinright 1.2s both;
+  animation: fadeinright 1.2s both;
 }
 
-@-webkit-keyframes fadeInRight {
+@-webkit-keyframes fadeinright {
   0% {
     opacity: 0;
     -webkit-transform: translateX(50px);
@@ -357,7 +359,7 @@ a.BTN {
   }
 }
 
-@-moz-keyframes fadeInRight {
+@-moz-keyframes fadeinright {
   0% {
     opacity: 0;
     -moz-transform: translateX(50px);
@@ -369,7 +371,7 @@ a.BTN {
   }
 }
 
-@-o-keyframes fadeInRight {
+@-o-keyframes fadeinright {
   0% {
     opacity: 0;
     -o-transform: translateX(50px);
@@ -381,7 +383,7 @@ a.BTN {
   }
 }
 
-@keyframes fadeInRight {
+@keyframes fadeinright {
   0% {
     opacity: 0;
     transform: translateX(50px);
@@ -394,10 +396,10 @@ a.BTN {
 }
 
 .fadeInBottom {
-  -webkit-animation: fadeInTop 1.2s both;
-  -moz-animation: fadeInTop 1.2s both;
-  -o-animation: fadeInTop 1.2s both;
-  animation: fadeInTop 1.2s both;
+  -webkit-animation: fadeintop 1.2s both;
+  -moz-animation: fadeintop 1.2s both;
+  -o-animation: fadeintop 1.2s both;
+  animation: fadeintop 1.2s both;
 }
 
 @-webkit-keyframes fadeInBottom {

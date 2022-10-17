@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <>
-      <div className="wrapper fadeInRight">
+      <div className="wrapper fadeinright">
         <Display
           Result={state.total}
           Operate={state.operation}

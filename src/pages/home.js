@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="top">
-        <h1 className="h-intro fadeInTop">
+        <h1 className="h-intro fadeintop">
           Welcome to <br /> <span className="orange">Math Magicians</span>
         </h1>
         <p className="text">
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         
         <div className="card">
-          <div className="fadeInLeft cards">
+          <div className="fadeinleft cards">
             <iconify-icon
               class="speed"
               icon="fluent:accessibility-checkmark-20-regular"
@@ -29,7 +29,7 @@ const Home = () => {
             <h2>Accessible</h2>
             <p>Simple design to help you do basic math operations.</p>
           </div>
-          <div className="fadeInRight cards">
+          <div className="fadeinright cards">
             <iconify-icon
               class="speed"
               icon="fluent-mdl2:speed-high"

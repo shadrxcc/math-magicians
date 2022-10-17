@@ -6,7 +6,7 @@ const Calculator = () => {
     <>
       <div className="intro top">
         <div>
-          <h1 className="lets fadeInLeft">
+          <h1 className="lets fadeinleft">
             Lets do some
             <br />
             <span className="orange calc"> calculations</span>
