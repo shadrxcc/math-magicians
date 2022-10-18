@@ -4,12 +4,16 @@ import './index.css';
 import App from './components/App';
 import './components/button.css'
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom"
+import RouteSwitch from './RouteSwitch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter>
   <React.StrictMode>
-    <App />
+    <RouteSwitch />
   </React.StrictMode>,
+  </BrowserRouter>
 );
 
 reportWebVitals();

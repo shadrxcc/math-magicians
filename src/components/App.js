@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import Display from './display';
-import ButtonPanel from './buttonpanel';
-import Calculate from '../logic/calculate.js';
-import '../App.css';
-
+import React, { useState } from "react";
+import Display from "./display";
+import ButtonPanel from "./buttonpanel";
+import Calculate from "../logic/calculate.js";
 
 const App = () => {
   const [state, setState] = useState({
@@ -12,19 +10,22 @@ const App = () => {
     operation: null,
   });
 
-  const handleClick =(e) => {
+  const handleClick = (e) => {
     setState({ ...state, ...Calculate(state, e.target.name) });
-  }
+  };
 
+  return (
+    <>
+      <div className="wrapper fadeinright">
+        <Display
+          Result={state.total}
+          Operate={state.operation}
+          Next={state.next}
+        />
+        <ButtonPanel clickHandler={handleClick} />
+      </div>
+    </>
+  );
+};
 
-    return (
-      <>
-      <div className='wrapper py-5'>
-        <Display Result={state.total} Operate={state.operation} Next={state.next} />
-        <ButtonPanel clickHandler={handleClick}/>
-        </div>
-      </>
-    )
-    }
-
-export default App;  
+export default App;
